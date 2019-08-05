@@ -3,7 +3,6 @@
   <head>
  <title>Blanson TSA</title>
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/
-
   <link rel="stylesheet" type="text/css" href="website.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="google-site-verification" content="DAdTIjMMDd9OCmfETjKDF15H4vSsi-HWeV3uK2Y2Fz0" />
@@ -25,25 +24,20 @@
        }
       return returnvalue;
     }
-
     function alertornot(){
     if (get_cookie('alerted')==''){
     loadalert()
     document.cookie="alerted=yes"
     }
     }
-
     function loadalert(){
     alert(alertmessage)
     }
-
     if (once_per_session==0)
     loadalert()
     else
     alertornot()
     </script>
-
-
  </head>
   <body>
      <iframe src="https://blansontsa.wixsite.com/blanson-tsa" style="position:fixed; top:-50px; left:0px; bottom:0px; right:0px; width:100%; height:105%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
@@ -54,9 +48,5 @@
 if (screen.width <= 699) {
 document.location = "https://blansontsa.wixsite.com/blanson-tsa";
 }
- 
-
-
-
 </script>
 </html>
